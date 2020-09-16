@@ -1,19 +1,18 @@
 package com.company;
 
-public class Aspirant extends Student{
+public class Aspirant extends Student {
     String scientificWork;
 
-    public Aspirant(String firstName, String lastName, String group, String scientificWork) {
-        super(firstName, lastName, group);
+    public Aspirant(String firstName, String lastName, String group, double averageMark, String scientificWork) {
+        super(firstName, lastName, group, averageMark);
         this.scientificWork = scientificWork;
     }
 
     @Override
-    public int getScholarship(double averageMark) {
-        if (averageMark==5){
+    public int getScholarship() {
+        if (averageMark == 5) {
             return 200;
-        }
-        else
+        } else
             return 180;
     }
 }

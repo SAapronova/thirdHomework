@@ -9,9 +9,11 @@ public abstract class Animal {
         this.location = location;
     }
 
-    abstract  void makeNoise();
-    abstract  void eat();
-    abstract  void sleep();
+    abstract void makeNoise();
+
+    abstract void eat();
+
+    abstract void sleep();
 
 
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
     protected int commands; //знание количества команд
 
     public Dog(String food, String location, int commands) {
